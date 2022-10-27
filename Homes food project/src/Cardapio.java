@@ -11,6 +11,7 @@ public class Cardapio {
 
     public void adicionarPrato(String prato){
         cardapio.add(prato);
+        this.quantiaPratos++;
     }
 
     
