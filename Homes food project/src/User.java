@@ -1,10 +1,10 @@
 public class User{
     //atributos que cliente e cozinheiros tem em comum
-    private String nome, user;
+    private String nome, user,senha;
     //String email;
-    private int senha;
+    //private int senha;
 
-    public User(String nome, String user, int senha) {  //construtor de pessoa (cozinheiro ou cliente)
+    public User(String nome, String user, String senha) {  //construtor de pessoa (cozinheiro ou cliente)
         this.nome = nome;
         this.user = user;
         this.senha = senha;
@@ -13,7 +13,7 @@ public class User{
     public String getNome() {
         return nome;
     }
-    public int getSenha() {
+    public String getSenha() {
         return senha;
     }
     public String getUser() {
@@ -22,7 +22,7 @@ public class User{
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public void setSenha(int senha) {
+    public void setSenha(String senha) {
         this.senha = senha;
     }
     public void setUser(String user) {
