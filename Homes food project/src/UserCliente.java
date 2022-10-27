@@ -5,6 +5,8 @@ public class UserCliente extends User{
     String user = "";
     int senha;
     
+    public void FazerPedido(int pedido){
 
+    }
 
 }

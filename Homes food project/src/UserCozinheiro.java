@@ -5,9 +5,9 @@ public class UserCozinheiro extends User{
     private FazerPedido pedido;
     private String[] cardapio;
     private float avaliacao; 
-    private float mediaAvaliacao;//media das avaliacoes
-    private int quantidadeDeAvaliacoes;
-    private int indescolhido;
+    //private float mediaAvaliacao;//media das avaliacoes
+    //private int quantidadeDeAvaliacoes;
+    //private int indescolhido;
     String nome="", user="";
     int senha=0;
     User perfil = new User (nome, user, senha);
