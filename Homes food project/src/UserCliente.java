@@ -3,7 +3,11 @@ public class UserCliente extends User{
     
     String nome = "";
     String user = "";
-    int senha;
+    String senha;
+    Cardapio cardapio;
+    User perfilCliente = new User (nome, user, senha);
+
+
     
 
 
