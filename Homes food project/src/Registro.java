@@ -14,12 +14,6 @@ public class Registro {
         
     }
 
-    public void apagarUsuario(){
-
-    }
-
-    public User procurar(User usuario){
-        return null;
-    }
+ 
 
 }
