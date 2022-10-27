@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class Registro {
-    private ArrayList listaClientes;
-    private ArrayList listaCozinheiros;
+    private ArrayList<User> listaClientes;
+    private ArrayList<User> listaCozinheiros;
     
 
     public Registro(){
