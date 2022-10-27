@@ -1,3 +1,3 @@
-public class UserCliente {
+public class UserCliente extends User{
     
 }
