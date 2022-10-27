@@ -6,8 +6,8 @@ public class Registro {
     
 
     public Registro(){
-        this.listaClientes = new ArrayList<>();
-        this.listaCozinheiros = new ArrayList<>();
+        this.listaClientes = new ArrayList<User>();
+        this.listaCozinheiros = new ArrayList<User>();
     }
 
     public void registrar(User usuario){
