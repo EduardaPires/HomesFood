@@ -1,11 +1,11 @@
 import java.util.Scanner;
 public class UserCliente extends User{
     
-    String nome = "";
-    String user = "";
-    String senha;
-    Cardapio cardapio;
-    User perfilCliente = new User (nome, user, senha);
+   private String nome = "";
+   private String user = "";
+   private String senha;
+   private Cardapio cardapio;
+   private User perfilCliente = new User (nome, user, senha);
 
 
     
